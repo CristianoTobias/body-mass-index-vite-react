@@ -25,6 +25,7 @@ function App() {
           ...valid,
           message: false,
           height: true,
+          bmi: false
         });
       } else {
         setValid({
@@ -46,6 +47,7 @@ function App() {
           ...valid,
           message: false,
           weight: true,
+          bmi: false
         });
       } else {
         setValid({
@@ -108,7 +110,7 @@ function App() {
             />
           </div>
           <div className="form__weight">
-            <label htmlFor="weight">Weigth</label>
+            <label htmlFor="weight">Weight</label>
             <br />
 
             <input
