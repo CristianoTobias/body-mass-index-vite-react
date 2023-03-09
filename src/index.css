@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+label {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 28px;
+}
+input {
+  text-align: right;
+  padding: 0.3em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 40%;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+form {
+  height: 25rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1em 0;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1.1em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 50%;
+  color: white;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.bmi-score {
+  font-size: 1.5em;
+}
+.bmi-result {
+  font-size: 2em;
+  color: white;
+}
+.message {
+  color: red;
+}
+
+@media only screen and (max-width: 574px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+  .bmi-score {
+    font-size: 0.5em;
+  }
+  .bmi-result {
+    font-size: 2em;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 1040px) and (min-width: 575px) {
+  h1 {
+    font-size: 2 em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+  .bmi-score {
+    font-size: 0.5em;
+  }
+  .bmi-result {
+    font-size: 2em;
+    color: white;
+  }
+}
