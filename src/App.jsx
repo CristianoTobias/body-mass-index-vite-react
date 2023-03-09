@@ -122,7 +122,7 @@ function App() {
             />
           </div>
           <button onClick={renderResult} type="button">
-            Calcular
+            Calculate
           </button>
           <div>
             {valid.message && (
